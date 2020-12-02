@@ -1,2 +1,9 @@
+# MacOS
 .DS_Store
-.idea
+
+# Rider
+.idea/
+
+# C#
+bin/
+obj/
