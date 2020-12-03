@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DayOne", "DayOne\DayOne.fsproj", "{3C3D504E-7A2A-4820-83A9-B4738E3E2CCB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DayTwo", "DayTwo\DayTwo.fsproj", "{2DEB1229-7DBC-426C-B885-F1BC747FC222}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Utils", "Utils\Utils.fsproj", "{F6424CF0-5330-47E2-AC66-56E8EC545E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{3C3D504E-7A2A-4820-83A9-B4738E3E2CCB}.Release|x64.Build.0 = Release|Any CPU
 		{3C3D504E-7A2A-4820-83A9-B4738E3E2CCB}.Release|x86.ActiveCfg = Release|Any CPU
 		{3C3D504E-7A2A-4820-83A9-B4738E3E2CCB}.Release|x86.Build.0 = Release|Any CPU
+		{2DEB1229-7DBC-426C-B885-F1BC747FC222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEB1229-7DBC-426C-B885-F1BC747FC222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEB1229-7DBC-426C-B885-F1BC747FC222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEB1229-7DBC-426C-B885-F1BC747FC222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6424CF0-5330-47E2-AC66-56E8EC545E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6424CF0-5330-47E2-AC66-56E8EC545E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6424CF0-5330-47E2-AC66-56E8EC545E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6424CF0-5330-47E2-AC66-56E8EC545E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

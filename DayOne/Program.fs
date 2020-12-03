@@ -1,12 +1,5 @@
-﻿open System.IO
-open DayOne
-
-let readLines (filePath : string) =
-    seq {
-        use sr = new StreamReader(filePath)
-        while not sr.EndOfStream do
-            yield sr.ReadLine()
-    }
+﻿open DayOne
+open Utils
 
 let executePartOne goal input =
     let (first, second) = PartOne.findPairThatSumsTo goal input
@@ -23,7 +16,7 @@ let main argv =
     let goal = 2020
 
     let input =
-        readLines "input.txt"
+        Files.readLines "input.txt"
         |> Seq.map int
         |> Seq.toList
 

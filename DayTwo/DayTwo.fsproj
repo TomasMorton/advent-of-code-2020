@@ -7,9 +7,7 @@
 
   <ItemGroup>
     <Content Include="task.txt" />
-    <Content Include="part-two.txt" />
     <Compile Include="PartOne.fs" />
-    <Compile Include="PartTwo.fs" />
     <Compile Include="Program.fs" />
     <Content Include="input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
