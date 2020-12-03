@@ -10,4 +10,7 @@ let main argv =
     PartOne.numberOfValidPasswords input
     |> printfn "Number of valid passwords: %d"
     
+    PartTwo.numberOfValidPasswords input
+    |> printfn "Number of actually valid passwords: %d"
+    
     0

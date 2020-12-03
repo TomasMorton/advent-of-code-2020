@@ -36,9 +36,9 @@ let isValidPassword (validation:PasswordValidation) =
     fst validation.Range <= numberOfMatchingChars  && numberOfMatchingChars <= snd validation.Range
 
 let numberOfValidPasswords input =
-    let parsed =
+    let validPasswords =
         input
         |> Seq.map parse
         |> Seq.filter isValidPassword
     
-    Seq.length parsed
+    Seq.length validPasswords
